@@ -1,0 +1,148 @@
+:root{
+    --preto: #000000 ;
+    --branco:#fffafa;
+    --gray:  #d6ddde;
+    --red: red;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -------------------------------------------Header--------------------------------------                               */
+
+body{
+
+    color: var(--branco);
+    background-color: var(--preto);
+    font-family:  'Times New Roman', Times, serif ;
+
+
+}
+
+.logo { 
+    color: var(--branco);
+    margin: 10px 10px;
+    text-shadow: 5px 4px 10px black;
+    font-size: 40px;
+    }
+
+
+.logo:hover{
+
+    color: var(--gray);
+    text-shadow: 5px 4px 10px greenyellow;
+}
+
+
+
+
+header   nav a{
+    color:var(--branco);
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: var(--red);
+
+
+}
+
+header .containter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* -------------------------------------------main--------------------------------------                               */
+.principal{
+font: 16px;
+background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.30)) ,  url("../img/iazbeck-nahh-capa.jpg");
+background-position:initial ;
+height: 400px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 10px;
+align-items: flex-start;
+}
+
+.principal:hover{
+    background: linear-gradient(rgba(5, 5, 5, 0.5),rgba(104, 102, 102, 0.3)), url("../img/eu.jpg");
+    background-position:center ;
+    background-size: cover;
+    transition: 2s ease all;
+}
+
+.principal .descricao{
+    margin-top: 3px;
+    margin-bottom: 40px;;
+}
+
+.principal .titulo{
+    font-size: 40px;
+
+}
+
+.principal .container{
+    width: 40%;
+    margin-right: 10%;
+    
+}
+
+
+main .descricao{
+    color:var(--gray);
+}
+
+.botao{
+    background-color: rgba(66, 66, 83, 0.50);
+    border: none;
+    color: var(--branco);    
+    padding: 4px 20px;
+    margin-right: 5px;
+    margin-top: 5%;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao i{
+    margin-left: 2px;
+}
+.botao:hover {
+    cursor: pointer;
+    background-color: rgba(58, 58, 61, 0.8);
+    transition: 2s ease all;
+}
+
+
+.box{
+    height: 200px;
+    width: 100%;
+    display: block;
+    
+}
+.carrosel{
+    margin-top: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;  
+    height: 10%;
+    width: 100%;   
+    padding: 10px;
+   
+}
+
+
